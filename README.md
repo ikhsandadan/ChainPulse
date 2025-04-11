@@ -4,6 +4,7 @@
 
 **Real-time blockchain transaction monitoring with AI-powered insights**
 
+[![Vercel](https://img.shields.io/badge/Vercel-Deployed-brightgreen)](https://chain-pulse-nine.vercel.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Powered by GCP](https://img.shields.io/badge/Powered%20by-GCP-4285F4?logo=google-cloud)](https://cloud.google.com/)
 [![AI: Google AI Studio](https://img.shields.io/badge/AI-Google%20AI%20Studio-4285F4?logo=google)](https://ai.google.dev/)
@@ -12,7 +13,7 @@
 
 ## 📊 Overview
 
-ChainPulse is a comprehensive blockchain explorer and analytics platform that provides real-time monitoring of blockchain transactions with a focus on PayPal USD (PYUSD). Built on Google Cloud Platform's RPC Blockchain infrastructure and enhanced with Google AI Studio capabilities, ChainPulse offers detailed insights into transaction flows, network congestion, gas prices, and market trends.
+[ChainPulse](https://chain-pulse-nine.vercel.app/) is a comprehensive blockchain explorer and analytics platform that provides real-time monitoring of blockchain transactions with a focus on PayPal USD (PYUSD). Built on Google Cloud Platform's RPC Blockchain infrastructure and enhanced with Google AI Studio capabilities, ChainPulse offers detailed insights into transaction flows, network congestion, gas prices, and market trends.
 
 ## ✨ Features
 
