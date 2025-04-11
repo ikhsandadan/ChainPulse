@@ -57,13 +57,13 @@ export default function PoolAnalyzer() {
             
             <div className="flex mb-6">
                 <button
-                    className={`px-4 py-2 mr-2 rounded-lg cursor-pointer ${activeTab === 'uniswap' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
+                    className={`px-4 py-2 mr-2 rounded-lg cursor-pointer ${activeTab === 'uniswap' ? 'bg-[#0c3c6f] text-white' : 'bg-gray-200'}`}
                     onClick={() => handleTabChange('uniswap')}
                 >
                     Uniswap V3 Pools
                 </button>
                 <button
-                    className={`px-4 py-2 rounded-lg cursor-pointer ${activeTab === 'curve' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
+                    className={`px-4 py-2 rounded-lg cursor-pointer ${activeTab === 'curve' ? 'bg-[#0c3c6f] text-white' : 'bg-gray-200'}`}
                     onClick={() => handleTabChange('curve')}
                 >
                     Curve Finance Pools
