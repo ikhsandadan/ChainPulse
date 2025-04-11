@@ -63,7 +63,7 @@ Token Information: Quick access to token data and contract details
 <details>
   <summary>Screenshot 1</summary>
   
-  ![Dashboard Overview]!(https://github.com/user-attachments/assets/a0425234-c82e-4344-9df7-3350765693e9)
+  ![Dashboard Overview](https://github.com/user-attachments/assets/a0425234-c82e-4344-9df7-3350765693e9)
 
   
 </details>
