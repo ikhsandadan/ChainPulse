@@ -552,7 +552,19 @@ export default function TransactionDetails({ flow }: Props) {
                                 <div>
                                     <p className="font-medium">{token.name}</p>
                                     <p className="text-sm text-gray-600">{token.symbol}</p>
-                                    <p className="text-xs text-gray-500 font-mono">{`${token.address.substring(0, 6)}...${token.address.substring(token.address.length - 4)}`}</p>
+                                    <div className="flex items-center gap-2 text-gray-500">
+                                        <Tooltip title={formatValue(token.address)} placement="top-start">
+                                        <p className="text-xs text-gray-500 font-mono">{`${token.address.substring(0, 6)}...${token.address.substring(token.address.length - 4)}`}</p>
+                                        </Tooltip>
+                                        <Tooltip title={valueCopied} placement="top">
+                                        <button
+                                            onClick={() => handleCopy(formatValue(token.address))}
+                                            className="cursor-pointer hover:text-blue-600 hover:scale-110"
+                                        >
+                                            <FiCopy size={14} />
+                                        </button>
+                                        </Tooltip>
+                                    </div>
                                 </div>
                             </div>
                         ))}
