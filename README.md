@@ -1,4 +1,4 @@
-![A3](https://github.com/user-attachments/assets/e2a0674e-13f4-4a49-9b09-b3c557efe851)# ChainPulse 🔄
+# ChainPulse 🔄
 
 <div align="center">
 
