@@ -39,7 +39,7 @@ export default function PYUSDTransactionsPanel({ transactions, totalSupply }: PY
     
     return (
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
-            <div className="bg-green-600 text-white px-6 py-4">
+            <div className="bg-[#0c3c6f] text-white px-6 py-4">
                 <h2 className="text-xl font-semibold">PYUSD Transaction Flow</h2>
             </div>
 
@@ -49,7 +49,7 @@ export default function PYUSDTransactionsPanel({ transactions, totalSupply }: PY
                         onClick={() => setViewMode('insights')}
                         className={`py-4 px-6 cursor-pointer text-center border-b-2 text-sm font-semibold text-gray-700 ${
                         viewMode === 'insights'
-                            ? 'border-green-500 text-green-600'
+                            ? 'border-[#0c3c6f] text-[#0c3c6f]'
                             : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
                         }`}
                     >
@@ -59,7 +59,7 @@ export default function PYUSDTransactionsPanel({ transactions, totalSupply }: PY
                         onClick={() => setViewMode('list')}
                         className={`py-4 px-6 cursor-pointer text-center border-b-2 text-sm font-semibold text-gray-700 ${
                         viewMode === 'list'
-                            ? 'border-green-500 text-green-600'
+                            ? 'border-[#0c3c6f] text-[#0c3c6f]'
                             : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
                         }`}
                     >
