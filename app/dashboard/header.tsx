@@ -34,7 +34,7 @@ export default function Header({ refreshInterval, onRefreshIntervalChange, lates
                     
                     <button 
                         onClick={() => window.location.reload()}
-                        className="cursor-pointer ml-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded text-sm"
+                        className="cursor-pointer ml-4 bg-[#0c3c6f] hover:bg-[#56b9d5] text-white font-bold py-1 px-4 rounded text-sm"
                     >
                         Refresh Now
                     </button>
