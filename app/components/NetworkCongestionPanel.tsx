@@ -86,7 +86,7 @@ export default function NetworkCongestionPanel({ networkStatus }: NetworkCongest
 
     return (
         <div className="bg-white rounded-lg shadow-md overflow-hidden h-full">
-            <div className="bg-blue-600 text-white px-6 py-4">
+            <div className="bg-[#0c3c6f] text-white px-6 py-4">
                 <h2 className="text-xl font-semibold">Network Congestion Status</h2>
             </div>
             
