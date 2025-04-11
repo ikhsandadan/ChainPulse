@@ -1,6 +1,7 @@
 <div align="center">
 
-![ChainPulse Logo](https://github.com/user-attachments/assets/87d51d22-7b80-426e-b6fc-09ebddbfb49f)
+![ChainPulse Logo](https://github.com/user-attachments/assets/cb90e144-c857-4f8f-859d-45ee56b4b63b)
+
 
 **Real-time blockchain transaction monitoring with AI-powered insights**
 
