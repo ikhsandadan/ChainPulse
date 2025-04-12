@@ -140,7 +140,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👏 Acknowledgements
 
-- Built during the StackUp, Google Cloud Web3 & PayPal Hackathon by [@Nashki](https://github.com/ikhsandadan)
+- Built during the StackUp, Google Cloud Web3 & PayPal Hackathon by [@Nashki](https://x.com/Ikhsan_dadan)
 - Powered by Google Cloud Platform RPC Blockchain technology
 - Enhanced with Google AI Studio's machine learning capabilities
 
