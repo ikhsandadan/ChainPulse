@@ -257,13 +257,13 @@ export default function PYUSDDetail({ data, totalSupply }: PYUSDDetailProps) {
                 </div>
 
                 {/* Price Overview */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
                     <div className="bg-white p-6 rounded-lg shadow">
                         <h2 className="text-gray-500 text-sm mb-2 flex items-center">
                             <DollarSign size={16} className="mr-1" />
                             Current Price
                         </h2>
-                        <div className="flex items-baseline">
+                        <div className="flex-wrap items-baseline">
                             <span className="text-3xl font-bold">
                                 {currencySymbols[currency]}{getCurrentPrice().toLocaleString('en-US', { style: 'decimal', maximumFractionDigits: 8, minimumFractionDigits: 2 })}
                             </span>
