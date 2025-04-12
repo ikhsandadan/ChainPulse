@@ -26,7 +26,7 @@ export default function Dashboard() {
         const fetchData = async () => {
             try {
                 setLoading(true);
-                const data = await fetchBlockchainData(50);
+                const data = await fetchBlockchainData(100);
                 const supply = await getTotalSupply();
                 
                 setPyusdTransactions(data.pyusdTransactions.reverse());
