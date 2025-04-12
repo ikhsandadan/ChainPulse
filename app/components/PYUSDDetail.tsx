@@ -286,7 +286,7 @@ export default function PYUSDDetail({ data, totalSupply }: PYUSDDetailProps) {
                         </div>
                     </div>
 
-                    <div className="bg-white p-6 rounded-lg shadow over">
+                    <div className="bg-white p-6 rounded-lg shadow over col-span-2">
                         <h2 className="text-gray-500 text-sm mb-2 flex items-center">
                             <TrendingUp size={16} className="mr-1" />
                             Market Stats
