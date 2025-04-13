@@ -134,6 +134,16 @@ Token Information: Quick access to token data and contract details
 </details>
 
 
+## 🎞️ Video Demo
+
+<details>
+  <summary>Demo</summary>
+  
+  [![ChainPulse-demo](https://img.youtube.com/vi/Leu4wAUgJg0/0.jpg)](https://www.youtube.com/watch?v=Leu4wAUgJg0)
+  
+</details>
+
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
